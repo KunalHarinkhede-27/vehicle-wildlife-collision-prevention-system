@@ -1,0 +1,23 @@
+This repository contains a deep learning model trained to detect animals in foggy conditions to prevent vehicle-wildlife collisions.
+
+- [**animal_detection_model.keras**](https://github.com/yourusername/yourrepo/blob/main/animal_detection_model.keras): Pre-trained model file that contains the architecture and weights.
+- [**model_training_and_inference.ipynb**](https://github.com/yourusername/yourrepo/blob/main/model_training_and_inference.ipynb): Jupyter notebook with the full code, including data preprocessing, model training, and evaluation.
+
+## How to Use the Model:
+
+### 1. **Download the Model**:
+You can download the model file from [animal_detection_model.keras](https://github.com/yourusername/yourrepo/blob/main/animal_detection_model.keras).
+
+### 2. **Install Dependencies**:
+Make sure you have the required dependencies installed:
+```bash
+pip install tensorflow numpy opencv-python
+from tensorflow.keras.models import load_model
+
+# Load the model from the downloaded file
+model = load_model('path_to_downloaded_model/animal_detection_model.keras')
+
+# Print the model's architecture
+model.summary()
+
+In this way you can see the model and architecture of model.
