@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Detection</title>
+</head>
+<body>
+    <h1>Enter Video Path for Detection</h1>
+    <form action="/predict" method="post">
+        <label for="video_path">Video Path:</label>
+        <input type="text" id="video_path" name="video_path" required />
+        <input type="submit" value="Submit" />
+    </form>
+    <h2>Video Stream:</h2>
+    <img id="video-stream" src="" />
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var videoPath = document.getElementById('video_path').value;
+            var form = document.createElement('form');
+            form.method = 'post';
+            form.action = '/predict';
+            var input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'video_path';
+            input.value = videoPath;
+            form.appendChild(input);
+            document.body.appendChild(form);
+            form.submit();
+        });
+    </script>
+</body>
+</html>
