@@ -1,7 +1,7 @@
 This repository contains a deep learning model trained to detect animals in foggy conditions to prevent vehicle-wildlife collisions.
 
-- [**animal_detection_model.keras**](https://github.com/yourusername/yourrepo/blob/main/animal_detection_model.keras): Pre-trained model file that contains the architecture and weights.
-- [**model_training_and_inference.ipynb**](https://github.com/yourusername/yourrepo/blob/main/model_training_and_inference.ipynb): Jupyter notebook with the full code, including data preprocessing, model training, and evaluation.
+- [**animal_detection_model.keras**]: Pre-trained model file that contains the architecture and weights.
+- [**model_training_and_inference.ipynb**]: Jupyter notebook with the full code, including data preprocessing, model training, and evaluation.
 
 ## How to Use the Model:
 
