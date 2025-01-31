@@ -1,4 +1,7 @@
 This repository contains a deep learning model trained to detect animals in foggy conditions to prevent vehicle-wildlife collisions.
+* Tech Stack:
+- Deep learning: CNN algorithm
+- Python libraries: Opencv, Tensorflow, Keras
 
 - [**animal_detection_model.keras**]: Pre-trained model file that contains the architecture and weights.
 - [**model_training_and_inference.ipynb**]: Jupyter notebook with the full code, including data preprocessing, model training, and evaluation.
