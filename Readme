@@ -6,7 +6,7 @@ This repository contains a deep learning model trained to detect animals in fogg
 ## How to Use the Model:
 
 ### 1. **Download the Model**:
-You can download the model file from [animal_detection_model.keras](https://github.com/yourusername/yourrepo/blob/main/animal_detection_model.keras).
+You can download the model file from [animal_detection_model.keras](https://github.com/KunalHarinkhede-27/vehicle-wildlife-collision-prevention-system/blob/main/models/animal_detection_model.keras).
 
 ### 2. **Install Dependencies**:
 Make sure you have the required dependencies installed:
